@@ -1,0 +1,9 @@
+/*可以在这里添加你自己的css*/
+body{
+	background: #fff;
+	font: 14px/1.6 Microsoft YaHei,\5FAE\8F6F\96C5\9ED1;
+	color: #666;
+	overflow-x: hidden;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
