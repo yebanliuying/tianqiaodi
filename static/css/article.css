@@ -1,0 +1,123 @@
+/*文章列表*/
+.ar_list_main{
+	padding: 20px 0 40px;
+	width: 68%;
+}
+.posts_wrap{
+	max-width: 580px;
+	margin: 0 auto;
+}
+.ar_list_main .posts{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ar_list_main .posts h1{
+	font-size: 28px;
+	line-height: 1.15;
+	margin-top: 16px;
+	margin-bottom: 4px
+}
+.ar_list_main .posts p{
+	font-weight: 300;
+	line-height: 1.2;
+	color: rgba(0,0,0,0.44);
+	margin-top: 40px;
+	margin-bottom: 2px;
+	font-size: 20px;
+	line-height: 1.3;
+	margin-top: 22px;
+	margin-bottom: 0;
+	color: #999;
+}
+.ar_list_main .posts .info{
+	margin-top: 10px;
+	color: #999;
+}
+.ar_list_main .posts .info span{
+	margin-right: 5px;
+	color: #666;
+}
+/*文章详情页*/
+.ar_details_wrap{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	margin: 30px auto 50px;
+}
+.ar_details_main{
+	width: 680px;
+}
+.ar_details_main h1{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #333;
+}
+.ar_details_main .info{
+	margin-bottom: 20px;
+}
+.ar_details_main .con{
+	font-size: 18px;
+	line-height: 1.8em;
+}
+.ar_details_aside{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 270px;
+	height: 500px;
+}
+/*发布文章*/
+.add_article{
+
+}
+.add_article .title{
+	font-size: 26px;
+	padding-bottom: 10px;
+	line-height: 1.15;
+	border-bottom: 2px solid #ddd;
+}
+.add_article .con{
+	font-size: 14px;
+	color: #444;
+}
+.add_article .aside_title{
+	font-size: 16px;
+	margin: 20px 0 10px;
+}
+.add_article .title_txt{
+	width: 500px;
+	height: 30px;
+	padding: 0 5px;
+	border: 2px solid #ddd;
+	font-size: 14px;
+	color: #666;
+}
+/*编辑器样式*/
+.add_article .edui-default .edui-editor{
+	width: 760px !important;
+	border: 2px solid #ddd;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+} 
+.add_article .edui-default .edui-editor-toolbarboxouter{
+	background: none;
+	box-shadow: none;
+	border-bottom: 2px solid #ddd;
+}
+.add_article .edui-default .edui-editor-toolbarbox{
+	box-shadow: none;
+}
+.add_article .edui-default .edui-editor-iframeholder{
+	width: 760px !important;
+	height: 400px !important;
+}
+.add_article #editor{
+	width: 770px !important;
+}
+.add_article .btn_gray{
+	margin-top: 10px;
+}
